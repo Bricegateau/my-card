@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(images/photo-1702731798357-22bd8ca4a484.jpeg);
+    color: aliceblue;
+    min-height: 100vh;
+    width: 100%;
+}
+.titre1{
+    margin: 10px;
+}
+.nav1{
+    display: flex;
+    justify-content:end;
+    margin-right: 50px;
+}
+a{
+    margin-left: 50px;
+    text-decoration: none;
+    color: azure;
+    
+}
+
+.btn{
+    background-color: azure;
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+}
+.btn:hover{
+    color: azure;
+    background-color: rgb(0, 0, 0);
+}
