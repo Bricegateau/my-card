@@ -1,36 +1,95 @@
+/*---------margin----------*/
 *{
     margin: 0;
-    padding:0;
-    box-sizing: border-box;
+    padding: 0;
+    box-sizing: border-box;   
 }
-body{
-    background-image: url(images/photo-1702731798357-22bd8ca4a484.jpeg);
-    color: aliceblue;
-    min-height: 100vh;
+
+/*-------------header-------------*/
+header{
+    background-color: rgb(3, 3, 97);
+    position: fixed;
     width: 100%;
 }
 .titre1{
-    margin: 10px;
+    margin-left: 15px;
+    color: azure;
+    padding-top:10px ;
+    
 }
 .nav1{
     display: flex;
-    justify-content:end;
-    margin-right: 50px;
+    justify-content: flex-end;
+    margin-bottom: 10px;
 }
 a{
-    margin-left: 50px;
+    color: azure;
     text-decoration: none;
-    color: azure;
-    
+    margin-left: 20px;
+    margin-right: 90px;
+    padding: 20px;
 }
+/*--------------main-----------*/
+.titre3{
+   
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 9%;
+    font-size: 40px;
+}
+.sec1{
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+}
+.sec2{
+    text-align: center;
+    padding: 50px;
+    font-size: 40px;
+    background-color: rgba(91, 91, 95, 0.77);
+    color: azure;
+    margin-bottom: 10px;
+}
+.sec3{
+    background-image: url(images/istockphoto-1360521208-612x612.jpg);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    text-align: right;
+    width: 100%;
+    font-size: 60px;
+    margin-right: 130px;
+    padding: 150px;
+    color:bisque;
+}
+.sec4{
+    text-align: center;
+    margin: 40px;
+    font-size: 40px;
+}
+.sec5{
+    text-align: left;
+    padding: 30px;
+    background-color: rgba(94, 94, 97, 0.898);
+    width: 100%;
+    color: azure;
+    font-size: 30px;
+}
+.sec6{
+    text-align: center;
+    font-size: 40px;
+    margin: 20px;
+}
+.sec7{
+    text-align: right;
+    font-size: 40px;
+    margin: 40px;
+}
+.sec8{
+    text-align:left ;
+    font-size: 40px;
+    padding: 30px;
+    background-color: rgb(118, 118, 120);
+    color: azure;
 
-.btn{
-    background-color: azure;
-    color: black;
-    padding: 10px;
-    border-radius: 20px;
-}
-.btn:hover{
-    color: azure;
-    background-color: rgb(0, 0, 0);
 }
