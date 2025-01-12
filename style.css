@@ -7,7 +7,7 @@
 
 /*-------------header-------------*/
 header{
-    background-color: rgb(3, 3, 97);
+    background-color: rgb(0, 0, 0);
     position: fixed;
     width: 100%;
 }
@@ -47,26 +47,27 @@ a{
     font-size: 30px;
 }
 .sec2{
-    text-align: center;
+    text-align: left;
     padding: 20px;
     font-size: 40px;
-    background-color: rgba(91, 91, 95, 0.77);
+    background-color: rgb(47, 47, 49);
     color: azure;
     margin-bottom: 10px;
 }
 .img2{
     border: 2px solid whitesmoke;
     border-radius: 30px;
-    margin: 20px;
+    margin-left: 50%;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 .sec3{
     background-image: url(images/istockphoto-1360521208-612x612.jpg);
-
     margin-top: 20px;
     background-size: cover;
     background-position: left;
     background-repeat: no-repeat;
-    text-align: right;
+    text-align: left;
     width: 100%;
     font-size: 60px;
     margin-right: 130px;
@@ -75,13 +76,13 @@ a{
 }
 .sec4{
     text-align: center;
-    margin: 40px;
+    margin: 60px;
     font-size: 40px;
 }
 .sec5{
-    text-align: left;
+    text-align: center;
     padding: 30px;
-    background-color: rgba(94, 94, 97, 0.898);
+    background-color: rgb(54, 54, 56);
     width: 100%;
     color: azure;
     font-size: 30px;
@@ -89,18 +90,18 @@ a{
 .sec6{
     text-align: center;
     font-size: 40px;
-    margin: 20px;
+    margin: 60px;
 }
 .sec7{
     text-align: right;
     font-size: 40px;
-    margin: 40px;
+    margin: 60px;
 }
 .sec8{
     text-align:center;
     font-size: 40px;
     padding: 30px;
-    background-color: rgb(118, 118, 120);
+    background-color: rgb(0, 0, 0);
     color: azure;
 
 }
