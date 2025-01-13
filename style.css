@@ -34,7 +34,7 @@ a{
 .main1{
     margin-top: 135px;
     width: 100%;
-    padding-bottom: 30px;background-color: rgba(169, 169, 169, 0.542);
+    padding-bottom: 30px;background-color: rgba(169, 169, 169, 0.342);
 }
 .titre2{
     text-decoration: underline; 
@@ -57,7 +57,7 @@ li{
     position: sticky;
 }
 .main2{
-    background-color: rgba(169, 169, 169, 0.721);
+    background-color: rgba(169, 169, 169, 0.148);
 }
 .h2{
    padding: 30px;
