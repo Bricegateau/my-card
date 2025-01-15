@@ -63,23 +63,22 @@ a:hover{
     padding-top: 100px; 
     letter-spacing: 3px;
 }
-.a2,.a1,.a3,.a4{
-    color: black;
-    font-size: 35px;
+.nav2{
+    display: flex;
+    justify-content:center;
 }
-li{
-    margin-left: 15%;
+.a1,.a2,.a3,.a4{
+    color: black;
     padding: 30px;
-    margin-top: 90px;
 }
 .img2{
     border-radius: 200px;
-    margin-left: 45%;
-    bottom: 600px;
+    margin-left: 25%;
     position: relative;
     z-index: -10;
     flex-wrap: wrap;
     opacity: 0.8;
+    padding: 40px;
     
 }
 .h2{
