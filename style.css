@@ -29,8 +29,7 @@ a{
     color: bisque;
     margin-bottom: 10px;
     text-decoration: none;
-    font-size: 25px;
-    
+    font-size: 25px;  
 }
 a:hover{
     color: azure;
@@ -45,32 +44,32 @@ a:hover{
 /*---------------main--------------*/
 .main1{
     margin-top: 330px;
-    width: 100%;
+    width:100%;
     background-color: rgba(169, 169, 169, 0.342);
     position: sticky;
     z-index: -10;
-
 }
 .titre2{
+    text-align: center;
     text-decoration: underline; 
-    font-size: 35px;
-    padding-top: 80px;
+    font-size: 50px;
+    padding-top: 40px;
     margin-left: 30px;
+    padding-top: 100px; 
 }
 .a2,.a1,.a3,.a4{
     color: black;
-    margin: 0;
     font-size: 35px;
 }
 li{
-    margin-left: 25%;
-    margin-bottom: 40px;
-    margin-top: 50px;
+    margin-left: 15%;
+    padding: 30px;
+    margin-top: 90px;
 }
 .img2{
     border-radius: 200px;
     margin-left: 45%;
-    bottom: 130px;
+    bottom: 600px;
     position: relative;
     z-index: -10;
     flex-wrap: wrap;
@@ -78,24 +77,21 @@ li{
     
 }
 .h2{
-   padding: 30px;
-   margin-top: 3px;
    text-align: center;
+   padding-bottom: 80px;
 }
+
 /*------------main h2-------------*/
 .main2{
     background-color: rgba(169, 169, 169, 0.148);
     padding: 30px;
 }
-
 .img3{
     border-radius: 40px;
     position: relative;
     z-index: -10;
-    opacity: 0.8;
-   
+    opacity: 0.8;  
 }
-
 .img4{
     position: relative;
     z-index: -10;
@@ -113,6 +109,5 @@ li{
 }
 .fin,p{
     text-align: center;
-    font-size: 18px;
-    
+    font-size: 18px;  
 }
