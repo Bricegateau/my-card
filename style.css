@@ -2,7 +2,8 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;   
+    box-sizing: border-box; 
+    flex-wrap: wrap;  
 }
 
 /*---------------hedear------------*/
@@ -32,9 +33,9 @@ a{
 }
 /*---------------main--------------*/
 .main1{
-    margin-top: 230px;
+    margin-top: 200px;
     width: 100%;
-    padding-bottom: 30px;background-color: rgba(169, 169, 169, 0.342);
+   background-color: rgba(169, 169, 169, 0.342);
 }
 .titre2{
     text-decoration: underline; 
@@ -46,20 +47,29 @@ a{
     color: black;
     margin: 0;
     font-size: 35px;
+    
 }
 li{
     margin-left: 400px;
+    margin-bottom: 20px;
 }
 .img2{
     border-radius: 200px;
     margin-left: 60%;
     margin-bottom: 50px;
-    position: sticky;
-}
-.main2{
-    background-color: rgba(169, 169, 169, 0.148);
+    
 }
 .h2{
    padding: 30px;
    margin-top: 3px;
+   text-align: center;
+}
+/*------------main h2-------------*/
+.main2{
+    background-color: rgba(169, 169, 169, 0.148);
+    padding: 30px;
+}
+
+.img3{
+    opacity: 0.7;
 }
