@@ -8,55 +8,73 @@
 
 /*---------------hedear------------*/
 header{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: azure;
     position: fixed;
     width: 100%;
 }
 .titre1{
-   margin-left:20px;
-   padding-top: 10px;
+   margin-left:80px;
+   padding-top: 80px;
+   letter-spacing: 3px;
 }
 .nav1{
     display: flex;
     justify-content: right;
     margin-right: 70px;
+    margin-bottom: 30px;
 }
 a{
     margin-left: 70px;
     color: bisque;
     margin-bottom: 10px;
     text-decoration: none;
+    font-size: 25px;
+    
+}
+a:hover{
+    color: azure;
 }
 .img1{
-    margin-left: 700px;
+    position: relative;
+    margin-left: 10%;
+    bottom: 63px;
+    z-index: -30;
+    flex-wrap: wrap;
 }
 /*---------------main--------------*/
 .main1{
-    margin-top: 200px;
+    margin-top: 330px;
     width: 100%;
-   background-color: rgba(169, 169, 169, 0.342);
+    background-color: rgba(169, 169, 169, 0.342);
+    position: sticky;
+    z-index: -10;
+
 }
 .titre2{
     text-decoration: underline; 
     font-size: 35px;
-    padding-top: 60px;
+    padding-top: 80px;
     margin-left: 30px;
 }
 .a2,.a1,.a3,.a4{
     color: black;
     margin: 0;
     font-size: 35px;
-    
 }
 li{
-    margin-left: 400px;
-    margin-bottom: 20px;
+    margin-left: 25%;
+    margin-bottom: 40px;
+    margin-top: 50px;
 }
 .img2{
     border-radius: 200px;
-    margin-left: 60%;
-    margin-bottom: 50px;
+    margin-left: 45%;
+    bottom: 130px;
+    position: relative;
+    z-index: -10;
+    flex-wrap: wrap;
+    opacity: 0.8;
     
 }
 .h2{
@@ -72,4 +90,29 @@ li{
 
 .img3{
     border-radius: 40px;
+    position: relative;
+    z-index: -10;
+    opacity: 0.8;
+   
+}
+
+.img4{
+    position: relative;
+    z-index: -10;
+    left: 38%;
+    padding: 40px;
+    opacity: 0.8;
+}
+
+/*-----------titres de fin--------*/
+.footer{
+    background-color: black;
+    color:bisque;
+    width: 100%; 
+    padding: 30px;
+}
+.fin,p{
+    text-align: center;
+    font-size: 18px;
+    
 }
