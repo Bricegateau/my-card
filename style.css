@@ -2,76 +2,127 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    
 }
 
 /*--------- body -----------*/
 body{
     width: 100%;
     flex-wrap: wrap;
+    
 }
 /*----------- header -----------*/
-header{
+.header{
     background-color: black;
     width: 100%;
+    position: fixed;
+    z-index: 10;
+   
+   
+   
 }
 .titre1{
     margin-left: 30px;
-    padding-top: 30px;
-    font-size: 60px;
+    padding-top: 50px;
+    font-size: 50px;
     letter-spacing: 3px;
     color: whitesmoke;
+    
+   
 }
 .img1{
     position: relative;
-    left: 300px;
-    bottom: 80px;
+    left: 260px;
     width: 160px;
+    bottom: 100px;
+    z-index: -1;
+    
 }
 .nav1{
     display: flex;
     justify-content: end;
     margin-right: 5%;
+    flex-wrap: wrap;
 }
 .a1,.a2,.a3,.a4{
     color: bisque;
     font-size: 30px;
-    margin-left: 10%;
+    margin-left: 9%;
     text-decoration: none;
-    padding: 15px;
+    padding-bottom: 20px;
+    
 }
-a:hover{
+.a1:hover{
     color:ghostwhite;
+}
+.a2:hover{
+        color:ghostwhite;
+}
+.a3:hover{
+       color:ghostwhite;
 }
 .a4{
     background-color: azure;
     border-radius: 20px;
     margin-bottom: 10px;
     color: black;
+    padding: 10px;
 }
 .a4:hover{
     color: blue;
 }
     /*-------- main ---------*/
 
+main{
+    padding-top: 350px;
+}
 .main1{
     background-color: rgba(169, 169, 169, 0.83);
-    padding:60px;
-    margin-top: 30px;
+    padding-top: 40px;
+   
+   
 }
 .titre2{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
     background-color: rgba(240, 248, 255, 0.628);
-    padding: 20px;
+    padding: 30px;
     border-radius: 20px;
+    
 }
 .img2{
     position: relative;
     width: 60%;
     left: 20%;
-    padding: 30px;
+    padding: 50px;  
+}
+.nav2{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    background-color: rgba(255, 228, 196, 0.75);
+    border-radius: 20px;
+    padding: 20px;
+}
+.a5,.a6,.a7,.a8{
+    text-decoration: none;
+    margin-left: 80px;
+    font-size: 30px;
+    color: black;
+    margin-top: 30px;
+}
+.a5:hover{
+    color: blue;
+}
+.a6:hover{
+    color: blue;
+}
+.a7:hover{
+    color: blue;
+}
+.a8:hover{
+    color: blue;
 }
 
     
