@@ -138,6 +138,8 @@ main{
 .nav3{
      display: flex;
      flex-wrap: wrap;
+     gap: 50px;
+     justify-content: center;
 }
 .img4{
        margin: 30px;
