@@ -16,11 +16,11 @@ body{
     background-color: rgba(0, 0, 0, 0.655);
     width: 100%;
     position:fixed;
-    top: 0; 
+    
 }
 .titre1{
     margin-left: 30px;
-    padding-top: 50px;
+    padding-top: 60px;
     font-size: 50px;
     letter-spacing: 3px;
     color: whitesmoke;  
@@ -30,7 +30,7 @@ body{
     left: 260px;
     width: 160px;
     bottom: 100px;
-     z-index: -10;
+    z-index: -10;
     border-radius: 150px; 
 }
 .nav1{
@@ -144,6 +144,7 @@ main{
 .img4{
        margin: 30px;
        width: 300px;
+       height: 220px;
        border: 3px solid white;
        border-radius: 120px;
        transition: 1s;
@@ -155,6 +156,7 @@ main{
 .img5{
      margin: 30px;
      width: 300px;
+     height: 220px;
      border-radius: 120px;
      border: 3px solid white;
      transition: 1s;
@@ -166,6 +168,7 @@ main{
 
 .img6{
      width: 300px;
+     height: 220px;
      margin: 30px; 
      border-radius: 120px;   
      border: 3px solid white; 
@@ -177,6 +180,7 @@ main{
 }
 .img7{
       width: 300px;
+      height: 220px;
       margin: 30px;
       border-radius: 120px; 
       border: 3px solid white;  
@@ -189,6 +193,7 @@ main{
     
 .img8{
        width: 300px;
+       height: 220px;
        margin: 30px;   
        border-radius:120px ;   
        border: 3px solid white;
@@ -200,6 +205,7 @@ main{
 }
 .img9{
       width: 300px;
+      height: 220px;
       margin: 30px;
       border-radius: 120px;
       border: 3px solid white;
