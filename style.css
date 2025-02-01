@@ -9,10 +9,11 @@ body{
     width: 100%;
     min-height: 200vh;
     flex-wrap: wrap; 
+    background-color: rgb(9, 20, 90);
 }
 /*----------- header -----------*/
 .header{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.655);
     width: 100%;
     position: fixed;
     z-index: 10;  
@@ -29,7 +30,8 @@ body{
     left: 260px;
     width: 160px;
     bottom: 100px;
-    z-index: -1;   
+    z-index: -10;  
+    border-radius: 150px; 
 }
 .nav1{
     display: flex;
@@ -61,27 +63,29 @@ button{
     transition: 0.35s ease;
 }
 button:hover{
-    color: blue;
+    color: rgba(255, 0, 0, 0.644);
 }
 
 
     /*-------- main ---------*/
 
 main{
-    padding-top: 350px;
+    padding-top: 370px;
+
 }
 .sec1{
     margin-top: 100px;
 }
 .main1{
-    background-color: rgba(169, 169, 169, 0.83);
+    background-color: rgba(1, 14, 65, 0.814);
     padding-top: 20px;
+    padding-bottom:20px ;
 }
 .titre2{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
-    background-color: rgba(255, 255, 255, 0.758);
+    background-color: rgba(230, 232, 235, 0.758);
     padding: 30px;
     border-radius: 20px;
     margin: 80px;
@@ -95,22 +99,14 @@ main{
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.img2{
-    border-radius: 20px;
-    position: relative;
-    width: 60%;
-    left: 20%;
-    padding-bottom: 200px;
-   
-   
 
-}
 .nav2{
     display: flex;
     justify-content: center;
     margin: 40px;
-    background-color: rgba(80, 62, 41, 0.309);
+    background-color: rgba(20, 49, 216, 0.666);
     border-radius: 20px; 
+    padding: 40px;
 }
 .a5,.a6,.a7,.a8{
     text-decoration: none;
@@ -121,39 +117,93 @@ main{
     padding: 20px;
 }
 .a5:hover{
-    color: rgba(0, 0, 255, 0.594);
+    color: rgba(172, 197, 190, 0.476);
 }
 .a6:hover{
-    color: rgba(0, 0, 255, 0.654);
+    color: rgba(97, 97, 218, 0.483);
 }
 .a7:hover{
-    color: rgba(0, 0, 255, 0.667);
+    color: rgba(123, 255, 0, 0.538);
 }
 .a8:hover{
-    color: rgba(0, 0, 255, 0.608);
+    color: rgba(0, 174, 255, 0.633);
 }
 
 .sec2{
     margin-top: 100px;
+    background-color: rgba(6, 6, 47, 0.69);
+    padding: 30px;
 }
 
 .nav3{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+     display: flex;
+     flex-wrap: wrap;
 }
-.img4,.img5,.img6,.img7,.img8{
-    width: 300px;
-    height: 300px;
-    border-radius: 40px;
-    opacity: 0.8;
-    border: 3px solid black;
-    tr
-    
+.img4{
+       margin: 30px;
+       width: 300px;
+       border: 3px solid white;
+       border-radius: 120px;
+       transition: 1s;
+}
+.img4:hover{
+    scale:1;
+    rotate: 20deg;
+}
+.img5{
+     margin: 30px;
+     width: 300px;
+     border-radius: 120px;
+     border: 3px solid white;
+     transition: 1s;
+}    
+.img5:hover{
+    scale: 1;
+    rotate: -10deg;
 }
 
-
-
-
+.img6{
+     width: 300px;
+     margin: 30px; 
+     border-radius: 120px;   
+     border: 3px solid white; 
+     transition: 1s;
+}
+.img6:hover{     
+     scale: 1;
+     rotate: 10deg;
+}
+.img7{
+      width: 300px;
+      margin: 30px;
+      border-radius: 120px; 
+      border: 3px solid white;  
+      transition: 1s;
+}
+.img7:hover{
+    scale: 1;
+    rotate: -10deg;
+}
     
-   
+.img8{
+       width: 300px;
+       margin: 30px;   
+       border-radius:120px ;   
+       border: 3px solid white;
+       transition: 1s;
+}
+.img8:hover{
+    scale: 1;
+    rotate: 10deg;
+}
+.img9{
+      width: 300px;
+      margin: 30px;
+      border-radius: 120px;
+      border: 3px solid white;
+      transition: 1s;
+}
+.img9:hover{
+    scale: 1;
+    rotate: -10deg;
+}
