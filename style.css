@@ -1,217 +1,130 @@
-/*--------- margin ----------*/
+                                                          /*-- margin et box --*/
+
 *{
-   box-sizing: border-box;
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   margin: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-/*--------- body -----------*/
+
+/*-- body --*/
+
 body{
-    width: 100%;
-    min-height: 200vh;
-    flex-wrap: wrap; 
-    background-color: rgba(3, 7, 41, 0.72);
+    background-color: rgb(16, 16, 82);
 }
-/*----------- header -----------*/
-.header{
-    background-color: rgba(0, 0, 0, 0.655);
-    width: 100%;
-    position:fixed;
-    
+
+
+                                                               /*-- header --*/
+  header{
+    position: fixed;
+    z-index: 10px;
+  }                                                             
+
+/*-- sec1 --*/
+
+.sec1{
+     background-color: rgb(8, 9, 47);
+     width: 100%;
+     position: fixed;
+     z-index: 10px;
 }
-.titre1{
+
+/*-- h1 --*/
+
+.h1{
+    color: aliceblue;
     margin-left: 30px;
-    padding-top: 60px;
-    font-size: 50px;
-    letter-spacing: 3px;
-    color: whitesmoke;  
+    padding-top: 30px;
+    font-size: 40px;
 }
+
+/*-- img1 --*/
+
 .img1{
-    position:relative;
-    left: 260px;
-    width: 160px;
-    bottom: 100px;
+    position: absolute;
+    left: 200px;
+    top: 5px;
+    width: 100px;
+    height: 100px;
     z-index: -10;
-    border-radius: 150px; 
+    border-radius: 70px;
+    padding-bottom: 15px;
 }
-.nav1{
-    display: flex;
-    justify-content: end;
-    margin-right: 5%;
+
+/*-- nav1-li-ul --*/
+
+nav{
+    position: absolute;
+    right: 15%;
+    top: 40px;
     flex-wrap: wrap;
 }
-.a1,.a2,.a3,.a4{
-    color: bisque;
-    font-size: 30px;
-    margin-left: 9%;
-    text-decoration: none;  
-}
-.a1:hover{
-    color:ghostwhite;
-}
-.a2:hover{
-        color:ghostwhite;
-}
-.a3:hover{
-       color:ghostwhite;
-}
 
-button{
-    padding: 10px;
-    margin-bottom: 20px;
-    border-radius: 20px;
-    font-size: 24px;
-    transition: 0.35s ease;
-}
-button:hover{
-    color: rgba(255, 0, 0, 0.644);
-}
-
-
-    /*-------- main ---------*/
-
-main{
-    padding-top: 370px;
-
-}
-.sec1{
-    margin-top: 100px;
-}
-.main1{
-    background-color: rgba(1, 14, 65, 0.814);
-    padding-top: 20px;
-    padding-bottom:20px ;
-}
-.titre2{
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 30px;
-    background-color: rgba(230, 232, 235, 0.758);
-    padding: 30px;
-    border-radius: 20px;
-    margin: 80px;
-    border: 2px solid rgba(255, 217, 0, 0.606);
-}
-.cent{
-    background-color: rgba(255, 217, 0, 0.606);
-    margin-left: 40%;
-    margin-right: 40%;
-    padding: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.nav2{
+ul{
     display: flex;
-    justify-content: center;
-    margin: 40px;
-    background-color: rgba(20, 49, 216, 0.666);
-    border-radius: 20px; 
-    padding: 40px;
-}
-.a5,.a6,.a7,.a8{
+    justify-content: end;
+    gap: 70px;
     text-decoration: none;
-    margin-left: 80px;
-    font-size: 30px;
-    color: black;
-    
-    padding: 20px;
 }
-.a5:hover{
-    color: rgba(172, 197, 190, 0.476);
+
+li{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
 }
-.a6:hover{
-    color: rgba(97, 97, 218, 0.483);
+
+.btn1{
+    position: absolute;
+    right: 5%;
+    top:30px ;
+    padding: 10px;
+    border-radius: 30px;
+    transition: 0.3s;
+    font-size: 20px;
 }
-.a7:hover{
-    color: rgba(123, 255, 0, 0.538);
-}
-.a8:hover{
-    color: rgba(0, 174, 255, 0.633);
+
+                                                              /*-- main --*/
+                                            
+main{
+   padding-top: 120px;
+   
 }
 
 .sec2{
-    margin-top: 100px;
-    background-color: rgba(6, 6, 47, 0.69);
-    padding: 30px;
+   padding: 50px;
+   background-color: rgb(13, 25, 95);
+   color: bisque; 
+   font-size: 30px;
+   font-style: italic;
+   text-align: center;
+}
+strong{
+    background-color: yellow;
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
 }
 
-.nav3{
-     display: flex;
-     flex-wrap: wrap;
-     gap: 50px;
-     justify-content: center;
-}
-.img4{
-       margin: 30px;
-       width: 300px;
-       height: 220px;
-       border: 3px solid white;
-       border-radius: 120px;
-       transition: 1s;
-}
-.img4:hover{
-    scale:1;
-    rotate: 20deg;
-}
-.img5{
-     margin: 30px;
-     width: 300px;
-     height: 220px;
-     border-radius: 120px;
-     border: 3px solid white;
-     transition: 1s;
-}    
-.img5:hover{
-    scale: 1;
-    rotate: -10deg;
+.img2{
+    width: 70%;
+    margin-top: 60px;
+    margin-left: 15%;
+    border-radius: 200px;
+    opacity: 0.7;
+    z-index: -10px;
 }
 
-.img6{
-     width: 300px;
-     height: 220px;
-     margin: 30px; 
-     border-radius: 120px;   
-     border: 3px solid white; 
-     transition: 1s;
+.sec4{
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+    color: brown;
+    padding: 40px;
+    padding: 70px;
 }
-.img6:hover{     
-     scale: 1;
-     rotate: 10deg;
-}
-.img7{
-      width: 300px;
-      height: 220px;
-      margin: 30px;
-      border-radius: 120px; 
-      border: 3px solid white;  
-      transition: 1s;
-}
-.img7:hover{
-    scale: 1;
-    rotate: -10deg;
-}
-    
-.img8{
-       width: 300px;
-       height: 220px;
-       margin: 30px;   
-       border-radius:120px ;   
-       border: 3px solid white;
-       transition: 1s;
-}
-.img8:hover{
-    scale: 1;
-    rotate: 10deg;
-}
-.img9{
-      width: 300px;
-      height: 220px;
-      margin: 30px;
-      border-radius: 120px;
-      border: 3px solid white;
-      transition: 1s;
-}
-.img9:hover{
-    scale: 1;
-    rotate: -10deg;
+
+.sec5{
+    display: flex;
+    justify-content: space-around;
 }
