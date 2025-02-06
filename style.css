@@ -98,25 +98,23 @@ main{
 .sec2{
    padding: 50px;
    background-color: rgb(13, 25, 95);
-   color: bisque; 
+   color:aliceblue; 
    font-size: 30px;
    font-style: italic;
    text-align: center;
 }
-strong{
+.st1{
     background-color: yellow;
     color: black;
     padding: 10px;
     border-radius: 20px;
+    
 }
 
 .img2{
-    width: 60%;
-    margin-left: 20%;
-    margin-top:50px ;
-    border-radius: 300px;
-   
-
+    width: 100%;
+    min-height: 40vh;
+     margin-top: 30px;
 }
 
 .sec4{
@@ -158,4 +156,26 @@ strong{
         border-radius: 200px;
         padding: 30px;
         transition: 1s;
+}
+
+/*-- h3 --*/
+.h3{
+    text-align: center;
+    color: aliceblue;
+    font-size: 40px;
+    padding: 10px;
+    margin-top: 40px;
+    font-style: italic;
+    letter-spacing: 3px;
+}
+.st2{
+    color: yellow;
+}
+.h4{
+    text-align: center;
+    color: aliceblue;
+    font-size: 40px;
+    padding: 10px;
+    font-style: italic;
+    letter-spacing: 3px
 }
