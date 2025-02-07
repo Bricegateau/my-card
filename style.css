@@ -112,9 +112,13 @@ main{
 }
 
 .img2{
-    width: 100%;
-    min-height: 40vh;
-     margin-top: 30px;
+    width: 80%;
+    min-height: 50vh;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    border-radius: 30px;
+
 }
 
 .sec4{
@@ -134,27 +138,27 @@ main{
 
 .img3{
     width: 600px;
-    border-radius: 200px;
-    padding: 30px;
+    border-radius: 100px;
+    padding: 40px;
     transition: 150ms ease;
 }
 
 .img4{
     width: 600px;
-    border-radius: 200px;
-    padding: 30px;
+    border-radius: 100px;
+    padding: 40px;
     transition: 1s;
 }
 .img5{
         width: 600px;
-        border-radius: 200px;
-        padding: 30px;
+        border-radius: 100px;
+        padding: 40px;
         transition: 1s;
 }
 .img6{
         width: 600px;
-        border-radius: 200px;
-        padding: 30px;
+        border-radius: 100px;
+        padding: 40px;
         transition: 1s;
 }
 
