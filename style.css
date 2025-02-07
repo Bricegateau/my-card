@@ -140,7 +140,6 @@ main{
     width: 600px;
     border-radius: 100px;
     padding: 40px;
-    transition: 150ms ease;
 }
 
 .img4{
@@ -182,4 +181,13 @@ main{
     padding: 10px;
     font-style: italic;
     letter-spacing: 3px
+}
+.sec7{
+    background-color: rgb(8, 9, 47);
+        width: 100%;
+        color: aliceblue;
+        text-align: center;
+        letter-spacing: 3px;
+        padding: 70px;
+        
 }
