@@ -1,6 +1,8 @@
 /*--- const ---*/
-const img3 = document.querySelector("img3");
-const img4 = document.querySelector("img4");
-const img5 = document.querySelector("img5");
+const ul = document.querySelector("ul");
+const tel = document.getElementById("tel");
 
 /*--- function ---*/
+ul.addEventListener("click", () => {
+  tel.style.visibility = "visible";
+});
