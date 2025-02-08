@@ -10,7 +10,7 @@
 /*-- body --*/
 
 body{
-    background-color: rgb(16, 16, 82);
+    background-color: rgb(255, 255, 255);
 }
 
 
@@ -23,7 +23,7 @@ body{
 /*-- sec1 --*/
 
 .sec1{
-     background-color: rgb(8, 9, 47);
+     background-color:rgb(25, 26, 30);
      width: 100%;
      position: fixed;
      z-index: 20px;
@@ -67,9 +67,18 @@ ul{
     text-decoration: none;
 }
 
-.a1,.a2{
+.a1,.a2,.a3{
     color: bisque;
     text-decoration: none;
+}
+.a2:hover{
+      color: aliceblue;
+}
+.a1:hover{
+    color: aliceblue;
+}
+.a3:hover{
+    color: aliceblue;
 }
 
 li{
@@ -78,26 +87,13 @@ li{
     justify-content: space-around;
     font-size: 20px;
 }
-
-.btn1{
-    position: absolute;
-    right: 5%;
-    top:30px ;
-    padding: 10px;
-    border-radius: 30px;
-    transition: 0.3s;
-    font-size: 20px;
-}
-.btn{
-    color: red;
-}
-                                                              /*-- main --*/                                            
+                         /*-- main --*/                                            
 main{
    padding-top: 120px;
 }
 .sec2{
    padding: 50px;
-   background-color: rgb(13, 25, 95);
+   background-color :rgba(35, 36, 38, 0.497);
    color:aliceblue; 
    font-size: 30px;
    font-style: italic;
@@ -164,7 +160,7 @@ main{
 /*-- h3 --*/
 .h3{
     text-align: center;
-    color: aliceblue;
+    color: rgb(34, 36, 37);
     font-size: 40px;
     padding: 10px;
     margin-top: 40px;
@@ -172,26 +168,25 @@ main{
     letter-spacing: 3px;
 }
 .st2{
-    color: yellow;
+    color: rgb(197, 197, 40);
 }
 .h4{
     text-align: center;
-    color: aliceblue;
+    color: rgb(39, 42, 44);
     font-size: 40px;
     padding: 10px;
     font-style: italic;
     letter-spacing: 3px
 }
 .sec7{
-    background-color: rgb(8, 9, 47);
+    background-color: rgb(24, 24, 29);
         width: 100%;
         color: aliceblue;
         text-align: center;
         letter-spacing: 3px;
-        padding: 70px; 
+        padding: 30px; 
 }
 .img8{
     width: 30%;
-    padding: 30px;
     margin-top: 20px;
 }
