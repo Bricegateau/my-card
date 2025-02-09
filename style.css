@@ -145,6 +145,11 @@ main{
     border-radius: 20px;
     
 }
+.st1:hover{
+    transform: rotate (50deg);
+    transition: 0.5s;
+    rotate:50deg ;
+}
 
 .img2{
     width: 80%;
