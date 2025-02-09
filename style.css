@@ -146,13 +146,8 @@ main{
     
 }
 .st1:hover{
-    animation-name:animation-rotate ;
-    animation-duration: 1s;
-}
-@keyframes animation-rotate {
-    from{
-        transform: rotate(360deg);
-    }
+    transform: rotate(90deg);
+    animation-duration: 0.1s;
 }
 
 .img2{
