@@ -1,8 +1,8 @@
 /*--- const ---*/
-const ul = document.querySelector("ul");
-const tel = document.getElementById("tel");
+const ul = document.getElementById("ul");
+const tel = document.querySelector(".tel");
 
 /*--- function ---*/
 ul.addEventListener("click", () => {
-  tel.style.visibility = "visible";
+  tel.classList.toggle(".tel");
 });

@@ -21,12 +21,14 @@ body{
   }                                                             
 
 /*-- sec1 --*/
-
+header{
+    z-index: 20;
+}
 .sec1{
      background-color:rgb(25, 26, 30);
      width: 100%;
      position: fixed;
-     z-index: 20px;
+     
 }
 
 /*-- h1 --*/
@@ -72,12 +74,12 @@ ul{
 .a:hover{
     color: aliceblue;
 }
-#tel{
+.tel{
     visibility: hidden;
     background-color: rgb(144, 144, 16);
     border-radius: 20px;
     margin-bottom: 30px;
-    padding: 10px;
+    padding: 5px;
     color: black;
     margin-right: 30px; 
 }
@@ -100,6 +102,13 @@ li{
     display: flex;
     justify-content: space-around;
     font-size: 20px;
+}
+.a7{
+    color:aliceblue;
+    margin-left: 10px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 20px;
 }
                          /*-- main --*/                                            
 main{
@@ -128,6 +137,9 @@ main{
     margin-left: 10%;
     margin-bottom: 5%;
     border-radius: 30px;
+    border: 2px solid ;
+    opacity: 0.9;
+    
 
 }
 
@@ -149,26 +161,33 @@ main{
 .img3{
     width: 600px;
     border-radius: 100px;
-    padding: 40px;
+    margin: 20px;
+    border: 2px solid black;
+    opacity: 0.8;
 }
 
 .img4{
     width: 600px;
     border-radius: 100px;
-    padding: 40px;
-    transition: 1s;
+    margin:20px ;
+    border: 2px solid black;
+    opacity: 0.8;
+    
 }
 .img5{
         width: 600px;
         border-radius: 100px;
-        padding: 40px;
-        transition: 1s;
+        margin: 20px;
+        border: 2px solid black;
+        opacity: 0.8;
+      
 }
 .img6{
         width: 600px;
-        border-radius: 100px;
-        padding: 40px;
-        transition: 1s;
+        border-radius: 100px;      
+        border: 2px solid black;
+        margin: 20px;
+        opacity: 0.8;
 }
 
 /*-- h3 --*/
@@ -202,4 +221,13 @@ main{
 .img8{
     width: 30%;
     margin-top: 20px;
+}
+.h5{
+    margin: 40px;
+    font-size: 40px;
+    font-style: italic;
+    color: rgb(39, 42, 44);
+    
+   
+  
 }
