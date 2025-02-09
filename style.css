@@ -68,13 +68,7 @@ ul{
     gap: 50px;
     text-decoration: none;
 }
-.a{
-    color: bisque;
-}
-.a:hover{
-    color: aliceblue;
-}
-.tel{
+.iden-contacte{
     visibility: hidden;
     background-color: rgb(144, 144, 16);
     border-radius: 20px;
@@ -82,6 +76,17 @@ ul{
     padding: 5px;
     color: black;
     margin-right: 30px; 
+}
+.a{
+    color: bisque;
+}
+.a:hover{
+    color: aliceblue;
+}
+.show-div{
+    visibility:visible;
+    
+   
 }
 .a1,.a2,.a3{
     color: bisque;
