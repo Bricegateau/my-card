@@ -70,7 +70,7 @@ ul{
 }
 .iden-contacte{
     visibility: hidden;
-    
+   
 }
 .as{
     color: bisque;
@@ -86,24 +86,31 @@ ul{
     padding: 15px;
     color: black;
     margin-right: 30px;
+}
+.animation-on{
     animation-name: animation;
-    animation-duration: 3s;
+    animation-duration: 2s;
+}
+.animation-off{
+    animation-name: animation-iden;
+    animation-duration: 2s;
 }
  @keyframes animation {
     from {
-        transform: translateY(-1000px);
+        transform: translatex(1200px);
     }
     to {
-        transform: translateY(0);
+        transform: translate(0);
     }
 }
-@keyframes animation {
+@keyframes animation-iden {
     from {
-        transform: translateY(-1000px);
+        transform: translateX(0);
+        
     }
 
     to {
-        transform: translateY(0);
+        transform: translateX(1000px);
     }
 }
 
