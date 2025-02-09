@@ -71,6 +71,13 @@ ul{
 .iden-contacte{
     visibility: hidden;
 }
+.as{
+    color: bisque;
+    text-decoration: none;
+}
+.as:hover{
+    color: aliceblue;
+}
 .tel{
      background-color: rgb(144, 144, 16);
     border-radius: 20px;
