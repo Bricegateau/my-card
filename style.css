@@ -70,10 +70,12 @@ ul{
 }
 .iden-contacte{
     visibility: hidden;
-    background-color: rgb(144, 144, 16);
+}
+.tel{
+     background-color: rgb(144, 144, 16);
     border-radius: 20px;
     margin-bottom: 30px;
-    padding: 5px;
+    padding: 15px;
     color: black;
     margin-right: 30px; 
 }
@@ -82,11 +84,6 @@ ul{
 }
 .a:hover{
     color: aliceblue;
-}
-.show-div{
-    visibility:visible;
-    
-   
 }
 .a1,.a2,.a3{
     color: bisque;
