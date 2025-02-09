@@ -70,6 +70,7 @@ ul{
 }
 .iden-contacte{
     visibility: hidden;
+    
 }
 .as{
     color: bisque;
@@ -79,22 +80,33 @@ ul{
     color: aliceblue;
 }
 .tel{
-     background-color: rgb(144, 144, 16);
+    background-color: rgb(144, 144, 16);
     border-radius: 20px;
     margin-bottom: 30px;
     padding: 15px;
     color: black;
-    margin-right: 30px; 
+    margin-right: 30px;
+    animation-name: animation;
+    animation-duration: 3s;
+}
+ @keyframes animation {
+    from {
+        transform: translateY(-1000px);
+    }
+    to {
+        transform: translateY(0);
+    }
 }
 @keyframes animation {
     from {
-        background-color: red;
+        transform: translateY(-1000px);
     }
 
     to {
-        background-color: yellow;
+        transform: translateY(0);
     }
 }
+
 .a{
     color: bisque;
 }
