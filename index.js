@@ -1,11 +1,11 @@
 /*--- const ---*/
 //const tel = document.querySelector(".tel");
 const a = document.querySelector(".a");
-
+let id = document.getElementById("id-iden");
+const body = document.body;
 /*--- function ---*/
 a.addEventListener("click", () => {
-  //const id = document.getElementById("id-iden");
-  //id.classList.toggle("iden-contacte");
-  const body = document.body;
-  body.style.backgroundColor = "red";
+  id.classList.toggle("iden-contacte");
+  body.style.backgroundColor = "blue";
+  id = [];
 });
