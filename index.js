@@ -5,6 +5,7 @@ const a = document.querySelector(".a");
 
 /*--- function ---*/
 a.addEventListener("click", () => {
-  const id = document.getElementById("iden-contacte");
-  console.log();
+  const id = document.getElementById("id-iden");
+  id.classList.remove("iden-contacte");
+  id.classList.toggle("iden-contacte");
 });
