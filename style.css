@@ -86,34 +86,13 @@ ul{
     padding: 15px;
     color: black;
     margin-right: 30px;
+    transform: translateX(1200px);
+    transition: 2s;
 }
 .animation-on{
-    animation-name: animation;
-    animation-duration: 2s;
+   transform: translateX(0);
+   transition: 2s;
 }
-.animation-off{
-    animation-name: animation-iden;
-    animation-duration: 2s;
-}
- @keyframes animation {
-    from {
-        transform: translatex(1200px);
-    }
-    to {
-        transform: translate(0);
-    }
-}
-@keyframes animation-iden {
-    from {
-        transform: translateX(0);
-        
-    }
-
-    to {
-        transform: translateX(1000px);
-    }
-}
-
 .a{
     color: bisque;
 }
