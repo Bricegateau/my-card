@@ -143,13 +143,11 @@ main{
     color: black;
     padding: 10px;
     border-radius: 20px;
-    
 }
 .st1:hover{
-    transform: rotate(90deg);
-    animation-duration: 0.1s;
+    background-color: aqua;
+    transform: rotate(100deg);
 }
-
 .img2{
     width: 80%;
     min-height: 50vh;
@@ -159,10 +157,7 @@ main{
     border-radius: 30px;
     border: 2px solid ;
     opacity: 0.9;
-    
-
 }
-
 .sec4{
     text-align: center;
     font-style: italic;
@@ -171,13 +166,11 @@ main{
     padding: 40px;
     padding: 70px;
 }
-
 .sec5{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
-
 .img3{
     width: 600px;
     border-radius: 100px;
@@ -185,7 +178,6 @@ main{
     border: 2px solid black;
     opacity: 0.8;
 }
-
 .img4{
     width: 600px;
     border-radius: 100px;
