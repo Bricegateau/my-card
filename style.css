@@ -86,6 +86,15 @@ ul{
     color: black;
     margin-right: 30px; 
 }
+@keyframes animation {
+    from {
+        background-color: red;
+    }
+
+    to {
+        background-color: yellow;
+    }
+}
 .a{
     color: bisque;
 }
