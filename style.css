@@ -145,10 +145,14 @@ main{
     border-radius: 20px;
     
 }
-.st1::hover{
-    transform: rotate (50deg);
-    transition: 0.5s;
-    rotate:50deg ;
+.st1:hover{
+    animation-name:animation-rotate ;
+    animation-duration: 1s;
+}
+@keyframes animation-rotate {
+    from{
+        transform: rotate(360deg);
+    }
 }
 
 .img2{
