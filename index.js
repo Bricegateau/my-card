@@ -1,10 +1,3 @@
-/*--- const ---*/
-//const tel = document.querySelector(".tel");
-const a = document.querySelector(".a");
+/*-- const --*/
 
-/*--- function ---*/
-a.addEventListener("click", () => {
-  let id = document.getElementById("id-iden");
-  id.classList.toggle("iden-contacte");
-  id.classList.toggle("animation-on");
-});
+/*-- function --*/
