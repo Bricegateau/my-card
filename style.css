@@ -61,11 +61,11 @@ a:hover{
     color: aliceblue ;
  }
 
-
 .img1{
-    min-height: 20vh;
     width: 100%;
+    height: 10%;
 }
+
 
 .h1{
     text-align: center;
