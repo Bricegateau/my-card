@@ -19,20 +19,22 @@ body{
        padding: 10px;
           letter-spacing: 3px;
               background-color: rgba(0, 0, 0, 0.427);
-                 color: rgb(252, 252, 252);
+                 color: rgba(52, 22, 170, 0.947);
                     position: fixed;
                        width: 100%;
                           padding-left: 40px;
+                               font-weight: 500;
  }
 
  .nav1{
     position: fixed;
-       right: 100px;
+       right: 5%;
           top: 15px;
+            flex-wrap: wrap;
  }
 
  .a1{
-    margin-right: 150px;
+    margin-right: 100px;
        text-decoration: none;
           font-size: 25px;
              color: aliceblue;
@@ -43,21 +45,21 @@ a:hover{
 }
  
  .a2{
-    margin-right: 150px;
+    margin-right: 100px;
        text-decoration: none;
           font-size: 25px;
              color: aliceblue;
 }
 
 .a3{
-    margin-right: 150px;
+    margin-right: 100px;
         text-decoration: none;
            font-size: 25px;
               color: aliceblue;
 }
 
 .a4{
-    margin-right: 150px;
+    margin-right: 100px;
          text-decoration: none;
              font-size: 25px;
                  color: aliceblue ;
@@ -69,6 +71,7 @@ a:hover{
    
 }
 
+
 .h1{
     text-align: center;
         font-size: 50px;
@@ -77,6 +80,9 @@ a:hover{
                    color: rgb(0, 0, 0);
                        padding-top:200px;
                            padding-bottom: 100px;
+                                   font-weight: 500;
+                                        margin-left: 10%;
+                                              margin-right: 10%;
 }
 
 span{
@@ -90,13 +96,6 @@ span{
        
 }
 
-nav{
-   display: flex;
-         justify-content: space-around;
-}
-
-
-
 .img5{
     width: 30%;
        float: left;
@@ -106,10 +105,11 @@ nav{
 }
 
 .p1{
-   margin-top: 150px;
+   margin-top: 5%;
          letter-spacing: 2px;
-              font-size: 30px;
+                font-size: 30px;
                   font-style: italic;
+                         margin-left: 10%;
    
 }
 
@@ -122,38 +122,39 @@ nav{
 }
 
 .p2{
-   margin-top: 20%;
+   margin-top: 15%;
           margin-left: 10%;
               padding-right: 10px;
                   letter-spacing: 2px;
                       font-size: 30px;
                           font-style: italic;
+                                
 }
 
 .img7{
      width: 20%; 
-     float: left;
-     margin: 50px;
+        float: left;
+            margin: 50px;
        
 }
-
-
 
 /*-- footer --*/
 
 footer{
     background-color:rgba(0, 0, 0, 0.305) ;
-    margin-top: 50%;
+                   margin-top: 50%;
 }
 
 .h3{
     text-align: center;
-        padding-top: 30px ;
+        padding-top: 15% ;
            font-size: 40px;
               font-style: italic;
                  letter-spacing: 3px;
-                         color: aliceblue;
-                               margin: 40px;
+                          margin: 40px;
+                               font-weight: 500;
+                                      margin-left: 10%;
+                                         margin-right: 10%;
 }
 
 .img4{
