@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   flex-wrap: wrap;
+}
+
+.h9{
+    font-size: 30px;
+    padding: 10px;
+    letter-spacing: 3px;
+    background-color: rgba(0, 0, 0, 0.532);
+    color: rgba(52, 22, 170, 0.947);
+    position: fixed;
+    width: 100%;
+    padding-left: 40px;
+    font-weight: 500;
+}
+
+.nav1 {
+    position: fixed;
+    right: 5%;
+    top: 15px;
+    flex-wrap: wrap;
+}
+
+.a1 {
+    margin-right: 100px;
+    text-decoration: none;
+    font-size: 25px;
+    color: aliceblue;
+}
+
+a:hover {
+    color: rgb(36, 54, 193);
+}
+
+.a2 {
+    margin-right: 100px;
+    text-decoration: none;
+    font-size: 25px;
+    color: aliceblue;
+}
+
+.a3 {
+    margin-right: 100px;
+    text-decoration: none;
+    font-size: 25px;
+    color: aliceblue;
+}
+
+.a4 {
+    margin-right: 100px;
+    text-decoration: none;
+    font-size: 25px;
+    color: aliceblue;
+}
+
+.img1{
+    margin-left: 30%;
+    padding-top: 200px;
+    border-radius: 30px;
+    margin-bottom: 40px;
+}
+
+.div1{
+    
+    margin-left: 40%;
+}

@@ -18,7 +18,7 @@ body{
     font-size: 30px;
        padding: 10px;
           letter-spacing: 3px;
-              background-color: rgba(0, 0, 0, 0.427);
+              background-color: rgba(0, 0, 0, 0.341);
                  color: rgba(52, 22, 170, 0.947);
                     position: fixed;
                        width: 100%;
@@ -178,7 +178,7 @@ span{
 
 footer{
     background-color:rgba(0, 0, 0, 0.305) ;
-                   margin-top: 10%;
+                   margin-top: 5%;
 }
 
 .img4{
@@ -190,7 +190,8 @@ footer{
 /*-- garentie --*/
 
 .img8{
-   margin-bottom: 40px;
+   margin-top: 150px;
+   margin-bottom: 60px;
 }
 .h7{
    margin: 40px;
