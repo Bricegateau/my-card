@@ -1,3 +1,3 @@
-/*-- const --*/
+/*-- ALERTE DE BUENVENUE --*/
 
-/*-- function --*/
+alert("Bonjour et bienvenue sur le site de DVS...parisWeb");
