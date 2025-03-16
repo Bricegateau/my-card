@@ -1,3 +1,7 @@
-/*-- ALERTE DE BUENVENUE --*/
+const titre = document.querySelector("h4");
 
-alert("Bonjour et bienvenue sur le site de DVS...parisWeb");
+const bibox = document.querySelector(".click-event");
+
+titre.style.color = "yellow";
+
+bibox.style.borderRadius = "150px";
