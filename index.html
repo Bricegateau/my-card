@@ -1,38 +1,160 @@
 <!DOCTYPE html>
-<html lang="fr">
-<head>
+<html lang="en">
 
-    <!-- meta -->
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <!-- boxicon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-    <!-- links -->
-     <link rel="stylesheet" href="style.css">
-     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-
-     <!-- title -->
-    <title>Document</title>
-
+    <link rel="stylesheet" href="style.css">
+    <title>Dvs..Paris</title>
 </head>
+
 <body>
 
-    <!-- header -->
-    <header>
 
+    <!-- ################## -->
+    <!-- Navigation -->
+    <!-- ################## -->
+
+
+    <header>
+        <a href="#" class="logo">Dvs<span>..Paris</span></a>
+        <ul class="navigation">
+            <li><a href="#services">Profile</a></li>
+            <li><a href="#chefs">Nos service</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div id="burger-menu" class="bx bx-menu"></div>
     </header>
 
-    <!-- main -->
-     <main>
+    <!-- ################## -->
+    <!-- home -->
+    <!-- ################## -->
 
-     </main>
+    <section class="home" id="home">
+        <div class="home-content">
+            <span class="subtitle">Nos prestation</span>
+            <h1>Nous rencontrer</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione sapiente fugit <br> delectus eius
+                mollitia nobis recusandae, sunt omnis pariatur temporibus.</p>
+            <a href="#" class="btn">En savoir plus</a>
+        </div>
+    </section>
 
-     <!-- footer -->
-      <footer>
-        
-      </footer>
- 
-    <script src="index.js"></script>
+
+    <!-- ################## -->
+    <!-- services -->
+    <!-- ################## -->
+
+    <section class="services" id="services">
+
+        <div class="section-heading">
+            <span>Explorez le Monde du devloppement Web</span>
+            <h2>Comment ca marche ?</h2>
+        </div>
+
+        <div class="services-container">
+            <div class="service-box">
+                <img src="./images/about-1.png" alt="">
+                <h3>Lorem ipsum dolor sit amet.</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, laboriosam eligendi exercitationem
+                    sapiente odio inventore.</p>
+            </div>
+            <div class="service-box">
+                <img src="./images/about-2.png" alt="">
+                <h3>Lorem ipsum dolor sit amet.</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, laboriosam eligendi exercitationem
+                    sapiente odio inventore.</p>
+            </div>
+            <div class="service-box">
+                <img src="./images/about-3.png" alt="">
+                <h3>Lorem ipsum dolor sit amet.</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, laboriosam eligendi exercitationem
+                    sapiente odio inventore.</p>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- ################## -->
+    <!-- Chefs->
+    <!-- ################## -->
+
+    <section class="chefs" id="chefs">
+        <div class="section-heading">
+            <span>Les Génies du Web</span>
+            <h2>Nos mentor</h2>
+        </div>
+        <div class="chefs-container">
+
+            <div class="chefs-box">
+                <img src="./images/c-1.jpg" alt="">
+                <div class="chefs-content">
+                    <h4>Grafickart</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In eveniet perferendis ab, sequi fugit
+                        accusamus?</p>
+                    <a href="#" class="btn">En savoir plus</a>
+                </div>
+            </div>
+            <div class="chefs-box">
+                <img src="./images/c-2.jpg" alt="">
+                <div class="chefs-content">
+                    <h4>Pierre Girault</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In eveniet perferendis ab, sequi fugit
+                        accusamus?</p>
+                    <a href="#" class="btn">En savoir plus</a>
+                </div>
+            </div>
+            <div class="chefs-box">
+                <img src="./images/c-3.jpg" alt="">
+                <div class="chefs-content">
+                    <h4>MDN</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In eveniet perferendis ab, sequi fugit
+                        accusamus?</p>
+                    <a href="#" class="btn">En savoir plus</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ################## -->
+    <!-- contact ->
+    <!-- ################## -->
+
+
+    <section class="contact" id="contact">
+
+        <div class="section-heading">
+            <span>Laissez vous séduire</span>
+            <h2>Nous contacter</h2>
+        </div>
+
+        <div class="contact-container">
+            <form action="#">
+                <input type="text" placeholder="Indiquez votre nom">
+                <input type="text" placeholder="Indiquez votre prenom">
+                <input type="text" placeholder="Indiquez votre mail">
+                <textarea placeholder="Votre message"></textarea>
+                <input type="submit" value="Envoyer" class="btn">
+            </form>
+        </div>
+
+
+    </section>
+
+    <!-- ################## -->
+    <!-- footer-->
+    <!-- ################## -->
+
+    <div class="copy">
+        <p>&copy; Portofolio et site proffesionnel de Dvs..Paris</p>
+    </div>
+
+
+    <script src="app.js"></script>
 </body>
-</html>
