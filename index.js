@@ -1,32 +1,14 @@
 const sections = document.querySelectorAll("section");
+const linksNav = document.querySelectorAll("nav a");
 const header = document.querySelector("header");
-const btnBurger = document.querySelector("#burger-menu");
+const btnHome = document.querySelector(".btn-home");
+const menuIcon = document.querySelector("#menu-burger");
 const nav = document.querySelector(".navigation");
-const linkNav = document.querySelectorAll(".navigation a");
 
-btnBurger.addEventListener("click", () => {
+const burgerActive = () => {
+  menuIcon.classList.toggle("bx-x");
   nav.classList.toggle("active");
-  btnBurger.classList.toggle("bx-x");
-  if (window.scrollY == 0) {
-    header.classList.toggle("active");
-  }
-});
-
-linkNav.forEach((link) => {
-  link.addEventListener("click", () => {
-    nav.classList.remove("active");
-    btnBurger.classList.remove("bx-x");
-  });
-});
-
-window.addEventListener("scroll", () => {
-  nav.classList.remove("active");
-  btnBurger.classList.remove("bx-x");
-});
-
-window.addEventListener("scroll", () => {
-  header.classList.toggle("active", window.scrollY > 0);
-});
+};
 
 const scrollActive = () => {
   sections.forEach((section) => {
@@ -36,14 +18,40 @@ const scrollActive = () => {
     let id = section.getAttribute("id");
 
     if (top >= offset && top < offset + height) {
-      linkNav.forEach((links) => {
+      linksNav.forEach((links) => {
         links.classList.remove("active");
-        document
-          .querySelector(`.navigation a[href*=${id}]`)
-          .classList.add("active");
+        document.querySelector(`nav a[href*=${id}]`).classList.add("active");
       });
     }
   });
+  header.classList.toggle("sticky", window.scrollY > 100);
+  btnHome.classList.toggle("btnDisplay", window.scrollY > 150);
+  menuIcon.classList.remove("bx-x");
+  nav.classList.remove("active");
 };
 
+ScrollReveal({
+  reset: true,
+  distance: "80px",
+  duration: 2000,
+  delay: 200,
+});
+
+ScrollReveal().reveal(".home-content, .section-title", { origin: "top" });
+ScrollReveal().reveal(
+  ".home-img, .services-content, .portfolio-box, .contact form",
+  { origin: "bottom" }
+);
+ScrollReveal().reveal(".home-content h1, .about-img", { origin: "left" });
+ScrollReveal().reveal(".home-content p, .about-content", { origin: "right" });
+
+const typed = new Typed(".multiple", {
+  strings: ["Développeur Web", "Web Designer", "Formateur Web"],
+  typeSpeed: 100,
+  backSpeed: 100,
+  backDelay: 1000,
+  loop: true,
+});
+
+menuIcon.addEventListener("click", burgerActive);
 window.addEventListener("scroll", scrollActive);
